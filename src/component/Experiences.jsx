@@ -6,7 +6,7 @@ function Card({ title, desc }) {
       <div className="w-full h-fit py-4 px-4 bg-white rounded-xl">
         <div className="flex flex-col items-center justify-center">
           <h2 className="font-bold text-2xl mb-5 text-center">{title}</h2>
-          {desc}
+          <div className="w-full">{desc}</div>
         </div>
       </div>
     </>
@@ -25,8 +25,12 @@ export default function Experiences() {
             title={"Bina Nusantara University"}
             desc={
               <>
-                <p className="text-customBlack opacity-50">2021 - 2025</p>
-                <p className="text-customBlack opacity-50">Computer Science</p>
+                <div className="text-center">
+                  <p className="text-customBlack opacity-50">2021 - 2025</p>
+                  <p className="text-customBlack opacity-50">
+                    Computer Science
+                  </p>
+                </div>
               </>
             }
           />
@@ -34,17 +38,20 @@ export default function Experiences() {
         <h1 className="text-3xl md:text-5xl font-bold text-center mt-10">
           Experiences
         </h1>
-        <div className="flex flex-col gap-10 justify-center mt-20">
+        <div className="flex flex-col gap-10 mt-20">
           <Card
             title={"Garasi Kami"}
             desc={
               <>
-                <p className="text-customBlack opacity-50">
-                  Social Media Manager
-                </p>
-                <p className="text-customBlack opacity-50">
-                  (Nov 2021 - Present)
-                </p>
+                <div className="text-center">
+                  <p className="text-customBlack opacity-50">
+                    Social Media Manager
+                  </p>
+                  <p className="text-customBlack opacity-50">
+                    (Nov 2021 - Present)
+                  </p>
+                </div>
+
                 <ul className="list-disc list-inside text-customBlack opacity-70 text-sm mt-2 space-y-1">
                   <li>
                     Conduct SEO research of hashtags and keywords for Instagram
@@ -69,12 +76,14 @@ export default function Experiences() {
             title={"PT Nusantara Compnet Integrator"}
             desc={
               <>
-                <p className="text-customBlack opacity-50">
-                  Full Stack Developer Intern
-                </p>
-                <p className="text-customBlack opacity-50">
-                  (Mar 2024 - Mar 2025)
-                </p>
+                <div className="text-center">
+                  <p className="text-customBlack opacity-50">
+                    Full Stack Developer Intern
+                  </p>
+                  <p className="text-customBlack opacity-50">
+                    (Mar 2024 - Mar 2025)
+                  </p>
+                </div>
                 <ul className="list-disc list-inside text-customBlack opacity-70 text-sm mt-2 space-y-1">
                   <li>
                     Confirming project requirement by reviewing program
@@ -114,12 +123,14 @@ export default function Experiences() {
             title={"Bina Nusantara University"}
             desc={
               <>
-                <p className="text-customBlack opacity-50">
-                  Education Counselor
-                </p>
-                <p className="text-customBlack opacity-50">
-                  (Jul 2021 - Nov 2021)
-                </p>
+                <div className="text-center">
+                  <p className="text-customBlack opacity-50">
+                    Education Counselor
+                  </p>
+                  <p className="text-customBlack opacity-50">
+                    (Jul 2021 - Nov 2021)
+                  </p>
+                </div>
                 <ul className="list-disc list-inside text-customBlack opacity-70 text-sm mt-2 space-y-1">
                   <li>
                     Successfully helped 35 students find their talent and

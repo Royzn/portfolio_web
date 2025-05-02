@@ -5,6 +5,9 @@
   --color-customWhite: #f6f6f6;
   --color-customBlue: #3b82f6;
 
+  --breakpoint-lgx: 1200px;
+  --breakpoint-md: 860px;
+
   --animate-blink: blink 2s ease-in-out infinite;
 
   @keyframes blink{

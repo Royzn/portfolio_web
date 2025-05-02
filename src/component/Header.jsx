@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 
 function HamburgerMenu({ onToggle, open }) {
-
   const handleToggle = () => {
     onToggle(!open);
   };
@@ -32,7 +31,6 @@ function HamburgerMenu({ onToggle, open }) {
 }
 
 function Header({ onToggle, open }) {
-
   const handleToggle = () => {
     onToggle(!open);
   };
@@ -41,13 +39,16 @@ function Header({ onToggle, open }) {
     <>
       <div className="flex mt-4 mx-4 items-center p-4 justify-between text-lg rounded-xl">
         <h1
-          className={`text-xl font-bold cursor-pointer ` + (open ? "text-customWhite" : "")}
+          className={
+            `text-xl font-bold cursor-pointer ` +
+            (open ? "text-customWhite" : "")
+          }
           onClick={() => window.scrollTo(0, 0)}
         >
           Royzen Anggatama
         </h1>
 
-        <HamburgerMenu onToggle={handleToggle} open={open}/>
+        <HamburgerMenu onToggle={handleToggle} open={open} />
         <div className="hidden md:flex gap-8 items-center">
           <a
             className="hover:bg-customBlack hover:text-white px-3 py-1 rounded-xl transition-all duration-500"
@@ -61,9 +62,14 @@ function Header({ onToggle, open }) {
           >
             Project
           </a>
-          <button className="bg-customBlack text-customWhite px-4 py-2 rounded-lg hover:bg-customWhite hover:text-customBlack transition-all duration-500 cursor-pointer">
+          <a
+            href="/doc/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-customBlack text-customWhite px-4 py-2 rounded-lg hover:bg-customWhite hover:text-customBlack transition-all duration-500"
+          >
             View Resume
-          </button>
+          </a>
         </div>
       </div>
     </>

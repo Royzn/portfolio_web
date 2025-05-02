@@ -149,6 +149,11 @@ export default function Skills() {
       title: "Excalidraw",
       caption: "Drawing tool",
     },
+    {
+      icon: "notion.png",
+      title: "Notion",
+      caption: "Notion",
+    }
   ];
 
   return (

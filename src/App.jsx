@@ -51,12 +51,18 @@ function App() {
             <a href="#projects" onClick={handleToggle}>
               Projects
             </a>
-            <div className="flex gap-5">
-              <a href="">
-                <img src="" alt="" />
+            <a href="/doc/resume.pdf" target="_blank" rel="noopener noreferrer">
+              View Resume
+            </a>
+            <div className="flex gap-5 items-center">
+              <a
+                href="https://www.linkedin.com/in/royzenanggatama/"
+                target="_blank"
+              >
+                <img className="h-14" src="/linkedin.png" alt="" />
               </a>
-              <a href="">
-                <img src="" alt="" />
+              <a href="https://www.instagram.com/royz.a/" target="_blank">
+                <img className="h-10" src="/instagram.png" alt="" />
               </a>
             </div>
           </div>

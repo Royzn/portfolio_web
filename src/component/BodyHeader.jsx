@@ -57,9 +57,9 @@ export default function BodyHeader() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-20 md:flex-row md:gap-0 justify-evenly my-36 mx-20">
+    <div className="flex flex-col gap-20 md:flex-row md:gap-5 justify-evenly items-center my-36 mx-20">
       <div className="flex flex-col gap-3 max-w-lg">
-        <div className="flex items-center justify-center gap-2 bg-green-200 px-2 py-1 rounded-lg w-fit">
+        <div className="flex items-center justify-start gap-2 bg-green-200 px-2 py-1 rounded-lg w-fit">
           <span className="w-2 h-2 md:w-3 md:h-3 bg-green-600 inline-block rounded-full animate-pulse"></span>
           <p className="text-green-800 font-bold">Open to Work</p>
         </div>
@@ -73,6 +73,9 @@ export default function BodyHeader() {
           in JavaScript, React, and etc. Seeking opportunities to apply my
           skills and contribute to innovative projects.
         </p>
+        <a href="mailto:royzenanggatama@gmail.com" className="bg-customBlack w-fit text-customWhite px-4 py-2 rounded-lg hover:bg-customWhite hover:text-customBlack transition-all duration-500 cursor-pointer">
+          Email Me!
+        </a>
       </div>
       <GalleryHeader />
     </div>
