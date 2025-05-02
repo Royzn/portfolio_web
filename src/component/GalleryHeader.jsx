@@ -6,7 +6,7 @@ export default function GalleryHeader() {
     <>
       <div className="hidden md:grid grid-rows-2 grid-cols-2 lgx:grid-cols-3 gap-1 md:w-xl h-fit">
         <div className="col-span-1 row-span-1 lgx:row-span-2 h-fit rounded-xl hover:transform hover:scale-110 duration-500 overflow-hidden">
-          <img className="" src="/potrait.JPG" alt="" />
+          <img className="" src="../potrait.JPG" alt="" />
         </div>
         <div className="flex flex-col relative bg-white text-center justify-center items-center py-3 px-3 col-span-1 lgx:col-span-2 row-span-1 rounded-xl hover:transform hover:scale-110 duration-500 overflow-hidden">
           <h1 className="font-bold select-none z-10 text-sm lgx:text-xl">Royzen Anggatama</h1>
