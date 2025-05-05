@@ -6,7 +6,7 @@ export default function GalleryHeader() {
     <>
       <div className="hidden md:grid grid-rows-2 grid-cols-2 lgx:grid-cols-3 gap-1 md:w-xl h-fit">
         <div className="col-span-1 row-span-1 lgx:row-span-2 h-fit rounded-xl hover:transform hover:scale-110 duration-500 overflow-hidden">
-          <img className="" src="../potrait.JPG" alt="" />
+          <img className="" src="potrait.JPG" alt="" />
         </div>
         <div className="flex flex-col relative bg-white text-center justify-center items-center py-3 px-3 col-span-1 lgx:col-span-2 row-span-1 rounded-xl hover:transform hover:scale-110 duration-500 overflow-hidden">
           <h1 className="font-bold select-none z-10 text-sm lgx:text-xl">Royzen Anggatama</h1>
@@ -19,7 +19,7 @@ export default function GalleryHeader() {
           target="_blank"
           href="https://www.linkedin.com/in/royzenanggatama/"
         >
-          <img className="w-10 h-10" src="/linkedin.png" alt="" />
+          <img className="w-10 h-10" src="linkedin.png" alt="" />
           <div>
             <p>Linked In</p>
             <p>royzenanggatama</p>
@@ -30,7 +30,7 @@ export default function GalleryHeader() {
           target="_blank"
           href="https://www.instagram.com/royz.a/"
         >
-          <img className="w-10 h-10" src="/instagram.png" alt="" />
+          <img className="w-10 h-10" src="instagram.png" alt="" />
           <div>
             <p>Instagram</p>
             <p>@royz.a</p>

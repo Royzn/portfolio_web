@@ -63,7 +63,7 @@ function Header({ onToggle, open }) {
             Project
           </a>
           <a
-            href="/doc/resume.pdf"
+            href="doc/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-customBlack text-customWhite px-4 py-2 rounded-lg hover:bg-customWhite hover:text-customBlack transition-all duration-500"

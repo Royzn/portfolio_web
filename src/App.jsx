@@ -6,6 +6,7 @@ import AboutMe from "./component/AboutMe";
 import Skills from "./component/Skills";
 import Projects from "./component/Projects";
 import Experiences from "./component/Experiences";
+import EndSection from "./component/EndSection";
 
 function App() {
   const [show, setShow] = useState(false);
@@ -51,7 +52,7 @@ function App() {
             <a href="#projects" onClick={handleToggle}>
               Projects
             </a>
-            <a href="/doc/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="doc/resume.pdf" target="_blank" rel="noopener noreferrer">
               View Resume
             </a>
             <div className="flex gap-5 items-center">
@@ -59,10 +60,10 @@ function App() {
                 href="https://www.linkedin.com/in/royzenanggatama/"
                 target="_blank"
               >
-                <img className="h-14" src="/linkedin.png" alt="" />
+                <img className="h-14" src="linkedin.png" alt="" />
               </a>
               <a href="https://www.instagram.com/royz.a/" target="_blank">
-                <img className="h-10" src="/instagram.png" alt="" />
+                <img className="h-10" src="instagram.png" alt="" />
               </a>
             </div>
           </div>
@@ -121,6 +122,12 @@ function App() {
         >
           <Projects />
         </section>
+        <section id="contact" className="transform py-20">
+          <EndSection />
+        </section>
+        <footer className="absolute text-center bottom-0 w-full mt-10 text-customBlack opacity-70">
+          © Royzen Anggatama - 2025
+        </footer>
       </div>
     </>
   );

@@ -5,7 +5,7 @@ function Section({ icon, title, caption }) {
     <>
       <div className="grid grid-cols-1 gap-3 py-3 px-3 bg-gray-100 rounded-2xl">
         <div className="flex items-center justify-center">
-          <img className="h-10" src={"/" + icon} alt="" />
+          <img className="h-10" src={icon} alt="" />
         </div>
 
         <div className="text-center">

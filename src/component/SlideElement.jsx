@@ -47,7 +47,7 @@ export default function SlideElement() {
             <img
               className="w-full h-20"
               key={index}
-              src={`/${x}`}
+              src={x}
             ></img>
           ))}
         </div>

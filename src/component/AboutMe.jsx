@@ -5,7 +5,7 @@ function Card({ icon, title, description }) {
     <>
       <div className="min-h-64 min-w-56 py-4 px-4 bg-white rounded-xl">
         <div className="flex items-center">
-          <img className="w-20 h-20" src={"/icon/" + icon} alt="" />
+          <img className="w-20 h-20" src={"icon/" + icon} alt="" />
           <h2 className="font-bold text-2xl">{title}</h2>
         </div>
         <p>{description}</p>
